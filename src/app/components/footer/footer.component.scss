@@ -1,0 +1,52 @@
+.call{
+  overflow: none;
+  text-decoration: none;
+  color: black;
+}
+
+p{
+  color: black;
+  font-weight:bold;
+}
+.call:hover{
+  color: white;
+  font-weight:bold;
+}
+
+footer{
+  background-color: orange !important;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.foot{
+  margin: 20px;
+}
+
+.datos{
+  margin: 20px;
+}
+
+.icon{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Copyright{
+  font-size: small;
+}
+
+.created{
+  position: fixed;
+  right: 20px;
+}
+
+@media screen and (max-width:600px){
+  .created{
+    display: block !important;
+    align-items: center !important;
+    align-content: center !important;
+    text-align: center !important;
+  }
+}
